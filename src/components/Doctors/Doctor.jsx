@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Doctor = ({ doctor }) => {
-  const { name, education, experience, registrationNumber, speciality } =
+  const { id, name, education, experience, registrationNumber, speciality } =
     doctor;
   return (
     <div>
@@ -32,12 +33,15 @@ const Doctor = ({ doctor }) => {
           <p>{education}</p>
           <p>Reg No: {registrationNumber}</p>
           <div className="w-full card-actions">
-            <button
-              className="btn  w-full
+            <Link to={`doctordetails/${id}`}>
+              {" "}
+              <button
+                className="btn  w-full
              btn-primary"
-            >
-              View Details
-            </button>
+              >
+                View Details
+              </button>
+            </Link>
           </div>
         </div>
       </div>

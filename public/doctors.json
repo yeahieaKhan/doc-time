@@ -1,111 +1,146 @@
 [
-    {
-      "id": 1,
-      "image": "https://images.unsplash.com/photo-1603398938378-cfe84c043f56",
-      "name": "Dr. Ayesha Rahman",
-      "education": "MBBS, FCPS (Medicine)",
-      "speciality": "Internal Medicine",
-      "experience": "10 years",
-      "registrationNumber": "BMDC-12345"
-    },
-    {
-      "id": 2,
-      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
-      "name": "Dr. Tanvir Ahmed",
-      "education": "MBBS, MS (Surgery)",
-      "speciality": "General Surgery",
-      "experience": "8 years",
-      "registrationNumber": "BMDC-23456"
-    },
-    {
-      "id": 3,
-      "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273c",
-      "name": "Dr. Nusrat Jahan",
-      "education": "MBBS, DGO",
-      "speciality": "Gynecology",
-      "experience": "7 years",
-      "registrationNumber": "BMDC-34567"
-    },
-    {
-      "id": 4,
-      "image": "https://images.unsplash.com/photo-1622111982667-4d9f1d6e6b6b",
-      "name": "Dr. Mahmudul Hasan",
-      "education": "MBBS, MD (Cardiology)",
-      "speciality": "Cardiologist",
-      "experience": "12 years",
-      "registrationNumber": "BMDC-45678"
-    },
-    {
-      "id": 5,
-      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
-      "name": "Dr. Farzana Karim",
-      "education": "MBBS, MD (Pediatrics)",
-      "speciality": "Pediatrician",
-      "experience": "9 years",
-      "registrationNumber": "BMDC-56789"
-    },
-    {
-      "id": 6,
-      "image": "https://images.unsplash.com/photo-1622555256740-b8b8b4b8a44f",
-      "name": "Dr. Rezaul Islam",
-      "education": "MBBS, MS (Orthopedics)",
-      "speciality": "Orthopedic Surgeon",
-      "experience": "11 years",
-      "registrationNumber": "BMDC-67890"
-    },
-    {
-      "id": 7,
-      "image": "https://images.unsplash.com/photo-1622111982667-4d9f1d6e6b6b",
-      "name": "Dr. Lubna Haque",
-      "education": "MBBS, MD (Dermatology)",
-      "speciality": "Dermatologist",
-      "experience": "6 years",
-      "registrationNumber": "BMDC-78901"
-    },
-    {
-      "id": 8,
-      "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464",
-      "name": "Dr. Shafiqur Rahman",
-      "education": "MBBS, MD (Neurology)",
-      "speciality": "Neurologist",
-      "experience": "13 years",
-      "registrationNumber": "BMDC-89012"
-    },
-    {
-      "id": 9,
-      "image": "https://images.unsplash.com/photo-1604709177225-d4c4e3a3d8d4",
-      "name": "Dr. Naznin Sultana",
-      "education": "MBBS, MS (ENT)",
-      "speciality": "ENT Specialist",
-      "experience": "7 years",
-      "registrationNumber": "BMDC-90123"
-    },
-    {
-      "id": 10,
-      "image": "https://images.unsplash.com/photo-1622111982667-4d9f1d6e6b6b",
-      "name": "Dr. Kamrul Islam",
-      "education": "MBBS, MS (Urology)",
-      "speciality": "Urologist",
-      "experience": "10 years",
-      "registrationNumber": "BMDC-01234"
-    },
-    {
-      "id": 11,
-      "image": "https://images.unsplash.com/photo-1588776814546-bd4b26b2b66d",
-      "name": "Dr. Sharmin Akter",
-      "education": "MBBS, FCPS (Psychiatry)",
-      "speciality": "Psychiatrist",
-      "experience": "5 years",
-      "registrationNumber": "BMDC-11223"
-    },
-    {
-      "id": 12,
-      "image": "https://images.unsplash.com/photo-1588776814486-4d44b7e473bc",
-      "name": "Dr. Zahid Hasan",
-      "education": "MBBS, MD (Gastroenterology)",
-      "speciality": "Gastroenterologist",
-      "experience": "9 years",
-      "registrationNumber": "BMDC-22334"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1603398938378-cfe84c043f56",
+    "name": "Dr. Ayesha Rahman",
+    "education": "MBBS, FCPS (Medicine)",
+    "speciality": "Internal Medicine",
+    "experience": "10 years",
+    "registrationNumber": "BMDC-12345",
+    "designation": "Consultant Physician",
+    "workplace": "Green Life Hospital, Dhaka",
+    "fee": "1000 Taka"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "name": "Dr. Tanvir Ahmed",
+    "education": "MBBS, MS (Surgery)",
+    "speciality": "General Surgery",
+    "experience": "8 years",
+    "registrationNumber": "BMDC-23456",
+    "designation": "Assistant Professor",
+    "workplace": "Dhaka Medical College Hospital",
+    "fee": "1200 Taka"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273c",
+    "name": "Dr. Nusrat Jahan",
+    "education": "MBBS, DGO",
+    "speciality": "Gynecology",
+    "experience": "7 years",
+    "registrationNumber": "BMDC-34567",
+    "designation": "Consultant Gynecologist",
+    "workplace": "Popular Diagnostic Center",
+    "fee": "900 Taka"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1622111982667-4d9f1d6e6b6b",
+    "name": "Dr. Mahmudul Hasan",
+    "education": "MBBS, MD (Cardiology)",
+    "speciality": "Cardiologist",
+    "experience": "12 years",
+    "registrationNumber": "BMDC-45678",
+    "designation": "Senior Consultant",
+    "workplace": "Labaid Cardiac Hospital",
+    "fee": "1500 Taka"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "name": "Dr. Farzana Karim",
+    "education": "MBBS, MD (Pediatrics)",
+    "speciality": "Pediatrician",
+    "experience": "9 years",
+    "registrationNumber": "BMDC-56789",
+    "designation": "Child Specialist",
+    "workplace": "Shishu Hospital",
+    "fee": "800 Taka"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1622555256740-b8b8b4b8a44f",
+    "name": "Dr. Rezaul Islam",
+    "education": "MBBS, MS (Orthopedics)",
+    "speciality": "Orthopedic Surgeon",
+    "experience": "11 years",
+    "registrationNumber": "BMDC-67890",
+    "designation": "Orthopedic Consultant",
+    "workplace": "BSMMU",
+    "fee": "1300 Taka"
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1622111982667-4d9f1d6e6b6b",
+    "name": "Dr. Lubna Haque",
+    "education": "MBBS, MD (Dermatology)",
+    "speciality": "Dermatologist",
+    "experience": "6 years",
+    "registrationNumber": "BMDC-78901",
+    "designation": "Skin Specialist",
+    "workplace": "Evercare Hospital Dhaka",
+    "fee": "700 Taka"
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464",
+    "name": "Dr. Shafiqur Rahman",
+    "education": "MBBS, MD (Neurology)",
+    "speciality": "Neurologist",
+    "experience": "13 years",
+    "registrationNumber": "BMDC-89012",
+    "designation": "Chief Neurologist",
+    "workplace": "National Institute of Neurosciences",
+    "fee": "1600 Taka"
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1604709177225-d4c4e3a3d8d4",
+    "name": "Dr. Naznin Sultana",
+    "education": "MBBS, MS (ENT)",
+    "speciality": "ENT Specialist",
+    "experience": "7 years",
+    "registrationNumber": "BMDC-90123",
+    "designation": "ENT Consultant",
+    "workplace": "ENT Hospital, Dhaka",
+    "fee": "850 Taka"
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1622111982667-4d9f1d6e6b6b",
+    "name": "Dr. Kamrul Islam",
+    "education": "MBBS, MS (Urology)",
+    "speciality": "Urologist",
+    "experience": "10 years",
+    "registrationNumber": "BMDC-01234",
+    "designation": "Urology Specialist",
+    "workplace": "Medinova Medical Services",
+    "fee": "1100 Taka"
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1588776814546-bd4b26b2b66d",
+    "name": "Dr. Sharmin Akter",
+    "education": "MBBS, FCPS (Psychiatry)",
+    "speciality": "Psychiatrist",
+    "experience": "5 years",
+    "registrationNumber": "BMDC-11223",
+    "designation": "Mental Health Consultant",
+    "workplace": "Mental Health Center, Dhaka",
+    "fee": "950 Taka"
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1588776814486-4d44b7e473bc",
+    "name": "Dr. Zahid Hasan",
+    "education": "MBBS, MD (Gastroenterology)",
+    "speciality": "Gastroenterologist",
+    "experience": "9 years",
+    "registrationNumber": "BMDC-22334",
+    "designation": "Consultant Gastroenterologist",
+    "workplace": "Ibn Sina Hospital",
+    "fee": "1200 Taka"
+  }
+]

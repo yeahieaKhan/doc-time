@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/./logo.png";
+import { Link } from "react-router";
 
 const Navbar = () => {
   return (
@@ -57,9 +58,12 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-bold">
-            <li>
-              <a>Home</a>
-            </li>
+            <Link to={"/"}>
+              {" "}
+              <li>
+                <a>Home</a>
+              </li>
+            </Link>
             <li>
               <a>My-Booking</a>
             </li>
