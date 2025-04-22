@@ -12,4 +12,10 @@ const addFavorite = (doctor) => {
   localStorage.setItem("favorites", JSON.stringify(favorites));
 };
 
-export { addFavorite, getFavorites };
+const removeFavorite = (id) => {
+  const favorites = getFavorites();
+  const remaingFavorites = favorites.filter((doctor) => doctor.id !== id);
+  localStorage.setItem("favorites", JSON.stringify(remaingFavorites));
+};
+
+export { addFavorite, getFavorites, removeFavorite };

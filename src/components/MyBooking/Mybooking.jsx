@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Doctor from "../Doctors/Doctor";
-import { getFavorites } from "../Utilitys";
+
+import { getFavorites, removeFavorite } from "../Utilitys";
+import BookingView from "./BookingView";
 
 const Mybooking = () => {
   const [doctorData, setDoctorData] = useState([]);
@@ -9,12 +10,20 @@ const Mybooking = () => {
     const savedDoctorLocalStorage = getFavorites();
     setDoctorData(savedDoctorLocalStorage);
   }, []);
+  const handleCanleAppoinment = (id) => {
+    removeFavorite(id);
+    setDoctorData(getFavorites());
+  };
   return (
     <div>
       <h2>my booking components</h2>
-      <div className="grid md:grid-cols-3">
+      <div>
         {doctorData.map((doctor) => (
-          <Doctor key={doctor.id} doctor={doctor}></Doctor>
+          <BookingView
+            key={doctor.id}
+            doctor={doctor}
+            handleCanleAppoinment={handleCanleAppoinment}
+          ></BookingView>
         ))}
       </div>
     </div>
