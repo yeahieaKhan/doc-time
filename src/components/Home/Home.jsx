@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../pages/Banner";
 import Doctors from "../Doctors/Doctors";
 import { useLoaderData } from "react-router";
+import Footer from "../pages/Footer";
 
 const Home = () => {
   const doctors = useLoaderData();

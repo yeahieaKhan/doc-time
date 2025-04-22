@@ -49,11 +49,14 @@ const Navbar = () => {
             </ul>
           </div>
           <div>
-            <a className="flex justify-center items-center font-bold text-xl">
+            <Link to={"/"}>
               {" "}
-              <img src={logo} alt="doc time logo" />
-              Doc-Time
-            </a>
+              <a className="flex justify-center items-center font-bold text-xl">
+                {" "}
+                <img src={logo} alt="doc time logo" />
+                Doc-Time
+              </a>
+            </Link>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -64,9 +67,12 @@ const Navbar = () => {
                 <a>Home</a>
               </li>
             </Link>
-            <li>
-              <a>My-Booking</a>
-            </li>
+            <Link to={"/mybooking"}>
+              {" "}
+              <li>
+                <a>My-Booking</a>
+              </li>
+            </Link>
             <li>
               <a>Blogs</a>
             </li>
