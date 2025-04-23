@@ -1,7 +1,6 @@
 import React from "react";
-import { ToastContainer, toast } from "react-toastify";
 
-const BookingView = ({ doctor, handleCanleAppoinment }) => {
+const BookingView = ({ doctor, handleFavorite }) => {
   const { id, name, designation, fee } = doctor;
 
   return (
@@ -17,12 +16,11 @@ const BookingView = ({ doctor, handleCanleAppoinment }) => {
       </div>
       <div>
         <button
-          onClick={() => handleCanleAppoinment(id)}
+          onClick={() => handleFavorite(id, name)}
           className="btn w-full border-red-700 mt-10 text-red-700 rounded-2xl"
         >
           canle Booking
         </button>
-        <ToastContainer />
       </div>
     </div>
   );

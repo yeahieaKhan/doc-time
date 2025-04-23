@@ -1,6 +1,7 @@
 import { Link, useLoaderData, useParams } from "react-router";
 import Navbar from "../pages/Navbar";
 import { addFavorite } from "../Utilitys";
+import { toast } from "react-toastify";
 
 const DoctorDetails = () => {
   const data = useLoaderData();
@@ -16,8 +17,10 @@ const DoctorDetails = () => {
     education,
   } = singleDoctor;
 
-  const handleFavorite = () => {
+  const handleFavorite = (name) => {
     addFavorite(singleDoctor);
+
+    toast.success(`doctor appoinment booked ${name}`);
   };
 
   return (
@@ -59,7 +62,7 @@ const DoctorDetails = () => {
           for today only. We appreciate your understanding and cooperation.
         </h2>
         <div className="py-10">
-          <Link to={"/mybooking"} onClick={handleFavorite}>
+          <Link to={"/mybooking"} onClick={() => handleFavorite(name)}>
             <button className="btn btn-success w-full text-white">
               Book an Appointment
             </button>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import { getFavorites, removeFavorite } from "../Utilitys";
 import BookingView from "./BookingView";
+import { toast } from "react-toastify";
 
 const Mybooking = () => {
   const [doctorData, setDoctorData] = useState([]);
@@ -10,10 +11,10 @@ const Mybooking = () => {
     const savedDoctorLocalStorage = getFavorites();
     setDoctorData(savedDoctorLocalStorage);
   }, []);
-  const handleCanleAppoinment = (id) => {
+  const handleFavorite = (id, name) => {
     removeFavorite(id);
     setDoctorData(getFavorites());
-    alert("Cancle");
+    toast.success(`Booking Cancle ${name}`);
   };
   return (
     <div>
@@ -23,7 +24,7 @@ const Mybooking = () => {
           <BookingView
             key={doctor.id}
             doctor={doctor}
-            handleCanleAppoinment={handleCanleAppoinment}
+            handleFavorite={handleFavorite}
           ></BookingView>
         ))}
       </div>

@@ -1,29 +1,33 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Footer = () => {
   return (
     <div>
       <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
         <nav className="grid grid-flow-col gap-4 list-none font-bold">
-          <Link to={"/"}>
+          <NavLink to={"/"}>
             {" "}
             <li>
               <a>Home</a>
             </li>
-          </Link>
-          <Link to={"/mybooking"}>
+          </NavLink>
+          <NavLink to={"/mybooking"}>
             {" "}
             <li>
               <a>My-Booking</a>
             </li>
-          </Link>
-          <li>
-            <a>Blogs</a>
-          </li>
-          <li>
-            <a>Contact Us</a>
-          </li>
+          </NavLink>
+          <NavLink to={"/blogs"}>
+            <li>
+              <a>Blogs</a>
+            </li>
+          </NavLink>
+          <NavLink to={"contact"}>
+            <li>
+              <a>Contact Us</a>
+            </li>
+          </NavLink>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">
