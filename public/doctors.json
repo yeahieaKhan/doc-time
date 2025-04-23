@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://images.unsplash.com/photo-1603398938378-cfe84c043f56",
+    "image": "https://i.ibb.co.com/x8XHbjnb/istockphoto-1148546091-1024x1024.jpg",
     "name": "Dr. Ayesha Rahman",
     "education": "MBBS, FCPS (Medicine)",
     "speciality": "Internal Medicine",
@@ -9,11 +9,12 @@
     "registrationNumber": "BMDC-12345",
     "designation": "Consultant Physician",
     "workplace": "Green Life Hospital, Dhaka",
-    "fee": "1000 Taka"
+    "fee": "1000 Taka",
+    "availability": ["Saturday", "Monday", "Wednesday"]
   },
   {
     "id": 2,
-    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "image": "https://i.ibb.co.com/Q7mZSJm9/istockphoto-2179903349-1024x1024.jpg",
     "name": "Dr. Tanvir Ahmed",
     "education": "MBBS, MS (Surgery)",
     "speciality": "General Surgery",
@@ -21,11 +22,12 @@
     "registrationNumber": "BMDC-23456",
     "designation": "Assistant Professor",
     "workplace": "Dhaka Medical College Hospital",
-    "fee": "1200 Taka"
+    "fee": "1200 Taka",
+    "availability": ["Sunday", "Tuesday", "Thursday", "Friday"]
   },
   {
     "id": 3,
-    "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273c",
+    "image": "https://i.ibb.co.com/zWmJmTYW/istockphoto-1368588848-1024x1024.jpg",
     "name": "Dr. Nusrat Jahan",
     "education": "MBBS, DGO",
     "speciality": "Gynecology",
@@ -33,11 +35,12 @@
     "registrationNumber": "BMDC-34567",
     "designation": "Consultant Gynecologist",
     "workplace": "Popular Diagnostic Center",
-    "fee": "900 Taka"
+    "fee": "900 Taka",
+    "availability": ["Monday", "Wednesday", "Thursday"]
   },
   {
     "id": 4,
-    "image": "https://images.unsplash.com/photo-1622111982667-4d9f1d6e6b6b",
+    "image": "https://i.ibb.co.com/C5nPCQKJ/istockphoto-1807580367-1024x1024.jpg",
     "name": "Dr. Mahmudul Hasan",
     "education": "MBBS, MD (Cardiology)",
     "speciality": "Cardiologist",
@@ -45,11 +48,12 @@
     "registrationNumber": "BMDC-45678",
     "designation": "Senior Consultant",
     "workplace": "Labaid Cardiac Hospital",
-    "fee": "1500 Taka"
+    "fee": "1500 Taka",
+    "availability": ["Saturday", "Sunday", "Tuesday", "Thursday", "Friday"]
   },
   {
     "id": 5,
-    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "image": "https://i.ibb.co.com/j9MYyDv9/istockphoto-1372002650-1024x1024.jpg",
     "name": "Dr. Farzana Karim",
     "education": "MBBS, MD (Pediatrics)",
     "speciality": "Pediatrician",
@@ -57,11 +61,12 @@
     "registrationNumber": "BMDC-56789",
     "designation": "Child Specialist",
     "workplace": "Shishu Hospital",
-    "fee": "800 Taka"
+    "fee": "800 Taka",
+    "availability": ["Sunday", "Monday", "Tuesday"]
   },
   {
     "id": 6,
-    "image": "https://images.unsplash.com/photo-1622555256740-b8b8b4b8a44f",
+    "image": "https://i.ibb.co.com/NwLHBYQ/istockphoto-2158610739-1024x1024.jpg",
     "name": "Dr. Rezaul Islam",
     "education": "MBBS, MS (Orthopedics)",
     "speciality": "Orthopedic Surgeon",
@@ -69,11 +74,12 @@
     "registrationNumber": "BMDC-67890",
     "designation": "Orthopedic Consultant",
     "workplace": "BSMMU",
-    "fee": "1300 Taka"
+    "fee": "1300 Taka",
+    "availability": ["Monday", "Wednesday", "Thursday", "Friday"]
   },
   {
     "id": 7,
-    "image": "https://images.unsplash.com/photo-1622111982667-4d9f1d6e6b6b",
+    "image": "https://i.ibb.co.com/9HgTYBdG/istockphoto-1425471202-1024x1024.jpg",
     "name": "Dr. Lubna Haque",
     "education": "MBBS, MD (Dermatology)",
     "speciality": "Dermatologist",
@@ -81,11 +87,12 @@
     "registrationNumber": "BMDC-78901",
     "designation": "Skin Specialist",
     "workplace": "Evercare Hospital Dhaka",
-    "fee": "700 Taka"
+    "fee": "700 Taka",
+    "availability": ["Saturday", "Sunday", "Tuesday", "Thursday", "Friday"]
   },
   {
     "id": 8,
-    "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464",
+    "image": "https://i.ibb.co.com/B5kt7L4S/istockphoto-1487763092-1024x1024.jpg",
     "name": "Dr. Shafiqur Rahman",
     "education": "MBBS, MD (Neurology)",
     "speciality": "Neurologist",
@@ -93,11 +100,12 @@
     "registrationNumber": "BMDC-89012",
     "designation": "Chief Neurologist",
     "workplace": "National Institute of Neurosciences",
-    "fee": "1600 Taka"
+    "fee": "1600 Taka",
+    "availability": ["Sunday", "Tuesday", "Wednesday", "Thursday", "Friday"]
   },
   {
     "id": 9,
-    "image": "https://images.unsplash.com/photo-1604709177225-d4c4e3a3d8d4",
+    "image": "https://i.ibb.co.com/RkJZZyQ2/istockphoto-2185518170-1024x1024.jpg",
     "name": "Dr. Naznin Sultana",
     "education": "MBBS, MS (ENT)",
     "speciality": "ENT Specialist",
@@ -105,11 +113,12 @@
     "registrationNumber": "BMDC-90123",
     "designation": "ENT Consultant",
     "workplace": "ENT Hospital, Dhaka",
-    "fee": "850 Taka"
+    "fee": "850 Taka",
+    "availability": ["Saturday", "Monday", "Wednesday"]
   },
   {
     "id": 10,
-    "image": "https://images.unsplash.com/photo-1622111982667-4d9f1d6e6b6b",
+    "image": "https://i.ibb.co.com/XxrtxLkg/istockphoto-1256055383-1024x1024.jpg",
     "name": "Dr. Kamrul Islam",
     "education": "MBBS, MS (Urology)",
     "speciality": "Urologist",
@@ -117,11 +126,12 @@
     "registrationNumber": "BMDC-01234",
     "designation": "Urology Specialist",
     "workplace": "Medinova Medical Services",
-    "fee": "1100 Taka"
+    "fee": "1100 Taka",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday"]
   },
   {
     "id": 11,
-    "image": "https://images.unsplash.com/photo-1588776814546-bd4b26b2b66d",
+    "image": "https://i.ibb.co.com/pv1yrLp6/istockphoto-1401900482-1024x1024.jpg",
     "name": "Dr. Sharmin Akter",
     "education": "MBBS, FCPS (Psychiatry)",
     "speciality": "Psychiatrist",
@@ -129,11 +139,12 @@
     "registrationNumber": "BMDC-11223",
     "designation": "Mental Health Consultant",
     "workplace": "Mental Health Center, Dhaka",
-    "fee": "950 Taka"
+    "fee": "950 Taka",
+    "availability": ["Saturday", "Sunday", "Tuesday"]
   },
   {
     "id": 12,
-    "image": "https://images.unsplash.com/photo-1588776814486-4d44b7e473bc",
+    "image": "https://i.ibb.co.com/LDJGDYwJ/istockphoto-1089689620-1024x1024-1.jpg",
     "name": "Dr. Zahid Hasan",
     "education": "MBBS, MD (Gastroenterology)",
     "speciality": "Gastroenterologist",
@@ -141,6 +152,7 @@
     "registrationNumber": "BMDC-22334",
     "designation": "Consultant Gastroenterologist",
     "workplace": "Ibn Sina Hospital",
-    "fee": "1200 Taka"
+    "fee": "1200 Taka",
+    "availability": ["Sunday", "Tuesday", "Thursday", "Friday"]
   }
 ]

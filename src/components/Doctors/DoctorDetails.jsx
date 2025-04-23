@@ -10,12 +10,13 @@ const DoctorDetails = () => {
   const singleDoctor = data.find((doctor) => doctor.id === parseInt(id));
   const {
     name,
-    images,
+    image,
     fee,
     workplace,
     registrationNumber,
     designation,
     education,
+    availability,
   } = singleDoctor;
 
   const handleFavorite = (name) => {
@@ -37,17 +38,34 @@ const DoctorDetails = () => {
       <div>
         <div className="hero bg-base-200  md:w-7xl mx-auto">
           <div className="md:flex gap-20 w-full">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-              className="max-w-sm rounded-lg shadow-2xl"
-            />
+            <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
               <h1 className="text-5xl font-bold">{name}</h1>
               <p>{education}</p>
               <p>{designation}</p>
               <p className="text-xl mt-5">Working at:</p>
               <h3 className="font-bold text-2xl">{workplace}</h3>
-              <p>Reg No: {registrationNumber}</p>
+              <p className="py-5 font-bold">
+                Reg No:{" "}
+                <span className="font-normal"> {registrationNumber}</span>
+              </p>
+              <p className="font-bold">
+                Availability:
+                <span className="font-normal">
+                  {availability.map((avai, index) => (
+                    <span
+                      key={index}
+                      className="inline-block mr-1 px-2 py-1  text-amber-700 rounded"
+                    >
+                      {avai}
+                    </span>
+                  ))}
+                </span>
+              </p>
+
+              <p className="font-bold py-5">
+                Consultation Fee: <span className="font-normal">{fee}</span>{" "}
+              </p>
             </div>
           </div>
         </div>
