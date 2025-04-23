@@ -6,11 +6,11 @@ const getFavorites = () => {
   return [];
 };
 
-const addFavorite = (doctor, name) => {
+const addFavorite = (doctor) => {
   const favorites = getFavorites();
   const isExist = favorites.find((p) => p.id === doctor.id);
   if (isExist) {
-    toast.success(`Doctor already added `);
+    toast.error("Appinment Already booking");
     return;
   }
   favorites.push(doctor);

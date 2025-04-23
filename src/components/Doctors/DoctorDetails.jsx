@@ -20,7 +20,7 @@ const DoctorDetails = () => {
   const handleFavorite = (name) => {
     addFavorite(singleDoctor);
 
-    toast.success(`doctor appoinment booked ${name}`);
+    toast.success(`doctor appoinment booked${name}`);
   };
 
   return (
