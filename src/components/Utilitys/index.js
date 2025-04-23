@@ -1,3 +1,5 @@
+import { ToastContainer, toast } from "react-toastify";
+
 const getFavorites = () => {
   const favorites = localStorage.getItem("favorites");
   if (favorites) return JSON.parse(favorites);
@@ -7,7 +9,7 @@ const getFavorites = () => {
 const addFavorite = (doctor) => {
   const favorites = getFavorites();
   const isExist = favorites.find((p) => p.id === doctor.id);
-  if (isExist) return alert("Doctor Already added");
+  if (isExist) return toast("Doctor Already added");
   favorites.push(doctor);
   localStorage.setItem("favorites", JSON.stringify(favorites));
 };

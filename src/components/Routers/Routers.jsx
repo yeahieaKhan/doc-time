@@ -4,6 +4,8 @@ import Root from "../Root/Root";
 import Home from "../Home/Home";
 import DoctorDetails from "../Doctors/DoctorDetails";
 import Mybooking from "../MyBooking/Mybooking";
+import Blogs from "../pages/Blogs";
+import Contact from "../pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
         path: "doctordetails/:id",
         loader: () => fetch("../doctors.json"),
         Component: DoctorDetails,
+      },
+      {
+        path: "blogs",
+        Component: Blogs,
+      },
+      {
+        path: "contact",
+        Component: Contact,
       },
     ],
   },

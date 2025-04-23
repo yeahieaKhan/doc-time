@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { Link, useLoaderData, useParams } from "react-router";
 import Navbar from "../pages/Navbar";
 import { addFavorite } from "../Utilitys";
@@ -50,6 +49,7 @@ const DoctorDetails = () => {
         <h2 className="font-bold text-3xl py-10 text-center">
           Book an Appointment
         </h2>
+
         <div className="md:flex justify-between">
           <h2>Availablity</h2>
           <h2>Doctor Avalabable</h2>

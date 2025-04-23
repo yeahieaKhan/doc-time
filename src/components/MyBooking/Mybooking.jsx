@@ -13,6 +13,7 @@ const Mybooking = () => {
   const handleCanleAppoinment = (id) => {
     removeFavorite(id);
     setDoctorData(getFavorites());
+    alert("Cancle");
   };
   return (
     <div>

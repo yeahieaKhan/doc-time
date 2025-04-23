@@ -1,8 +1,9 @@
 import React from "react";
-import { removeFavorite } from "../Utilitys";
+import { ToastContainer, toast } from "react-toastify";
 
 const BookingView = ({ doctor, handleCanleAppoinment }) => {
   const { id, name, designation, fee } = doctor;
+
   return (
     <div className="border w-7xl mx-auto mt-10  p-14">
       <div className="md:flex md:justify-between">
@@ -19,8 +20,9 @@ const BookingView = ({ doctor, handleCanleAppoinment }) => {
           onClick={() => handleCanleAppoinment(id)}
           className="btn w-full border-red-700 mt-10 text-red-700 rounded-2xl"
         >
-          Cancle Appoinment
+          canle Booking
         </button>
+        <ToastContainer />
       </div>
     </div>
   );

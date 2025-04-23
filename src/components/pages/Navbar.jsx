@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/./logo.png";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
+import "./NavBar.css";
 
 const Navbar = () => {
   return (
@@ -49,36 +50,34 @@ const Navbar = () => {
             </ul>
           </div>
           <div>
-            <Link to={"/"}>
-              {" "}
-              <a className="flex justify-center items-center font-bold text-xl">
-                {" "}
-                <img src={logo} alt="doc time logo" />
-                Doc-Time
-              </a>
-            </Link>
+            <a className="flex justify-center items-center font-bold text-xl">
+              <img src={logo} alt="doc time logo" />
+              Doc-Time
+            </a>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-bold">
-            <Link to={"/"}>
-              {" "}
+            <NavLink to={"/"}>
               <li>
                 <a>Home</a>
               </li>
-            </Link>
-            <Link to={"/mybooking"}>
-              {" "}
+            </NavLink>
+            <NavLink to={"/mybooking"}>
               <li>
-                <a>My-Booking</a>
+                <a>My-Booing</a>
               </li>
-            </Link>
-            <li>
-              <a>Blogs</a>
-            </li>
-            <li>
-              <a>Contact Us</a>
-            </li>
+            </NavLink>
+            <NavLink to={"blogs"}>
+              <li>
+                <a>Blogs</a>
+              </li>
+            </NavLink>
+            <NavLink to={"contact"}>
+              <li>
+                <a>Contact Us</a>
+              </li>
+            </NavLink>
           </ul>
         </div>
         <div className="navbar-end">
