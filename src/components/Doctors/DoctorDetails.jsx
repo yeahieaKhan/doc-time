@@ -1,4 +1,4 @@
-import { Link, useLoaderData, useParams } from "react-router";
+import { Link, useLoaderData, useNavigate, useParams } from "react-router";
 import Navbar from "../pages/Navbar";
 import { addFavorite } from "../Utilitys";
 import { toast } from "react-toastify";
@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 const DoctorDetails = () => {
   const data = useLoaderData();
   const { id } = useParams();
+  const navigate = useNavigate();
   const singleDoctor = data.find((doctor) => doctor.id === parseInt(id));
   const {
     name,
@@ -18,9 +19,12 @@ const DoctorDetails = () => {
   } = singleDoctor;
 
   const handleFavorite = (name) => {
-    addFavorite(singleDoctor);
+    const isBooked = addFavorite(singleDoctor);
 
-    toast.success(`doctor appoinment booked${name}`);
+    if (isBooked) {
+      toast.success(`doctor appoinment booked${name}`);
+      navigate("/mybooking");
+    }
   };
 
   return (

@@ -10,11 +10,12 @@ const addFavorite = (doctor) => {
   const favorites = getFavorites();
   const isExist = favorites.find((p) => p.id === doctor.id);
   if (isExist) {
-    toast.error("Appinment Already booking");
-    return;
+    toast.error(`Appoinment already booked ${doctor.name}`);
+    return false;
   }
   favorites.push(doctor);
   localStorage.setItem("favorites", JSON.stringify(favorites));
+  return true;
 };
 
 const removeFavorite = (id) => {

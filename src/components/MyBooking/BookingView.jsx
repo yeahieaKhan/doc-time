@@ -1,8 +1,7 @@
 import React from "react";
 
 const BookingView = ({ doctor, handleFavorite }) => {
-  const { id, name, designation, fee } = doctor;
-
+  const { id, name, designation, fee } = doctor || {};
   return (
     <div className="border w-7xl mx-auto mt-10  p-14">
       <div className="md:flex md:justify-between">

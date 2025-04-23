@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { getFavorites, removeFavorite } from "../Utilitys";
 import BookingView from "./BookingView";
 import { toast } from "react-toastify";
+import EmptyState from "./EmptyState";
 
 const Mybooking = () => {
   const [doctorData, setDoctorData] = useState([]);
@@ -16,6 +17,9 @@ const Mybooking = () => {
     setDoctorData(getFavorites());
     toast.success(`Booking Cancle ${name}`);
   };
+
+  if (doctorData.length < 1) return <EmptyState></EmptyState>;
+
   return (
     <div>
       <h2>my booking components</h2>
