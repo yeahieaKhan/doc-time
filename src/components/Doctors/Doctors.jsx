@@ -16,7 +16,14 @@ const Doctors = ({ doctors }) => {
 
   return (
     <div className="md:w-7xl mx-auto">
-      <h2 className="text-center text-3xl">Doctors components</h2>
+      <h2 className="text-center text-3xl">Our Best Doctors</h2>
+      <p className="text-center pb-10">
+        At our clinic, we are proud to feature a team of the most dedicated,
+        <br />
+        experienced, and compassionate medical professionals. <br />
+        Each doctor is highly trained, bringing years of expertise and a deep
+        commitment to patient care.
+      </p>
       <div className="grid md:grid-cols-3">
         {doctorData.map((doctor) => (
           <Doctor key={doctor.id} doctor={doctor}></Doctor>

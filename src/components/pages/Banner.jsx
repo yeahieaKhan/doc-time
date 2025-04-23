@@ -34,7 +34,14 @@ const Banner = () => {
             </button>
           </form>
         </div>
-        <div></div>
+        <div className="grid grid-cols-2">
+          <div>
+            <img src={BannerImg} alt="" />
+          </div>
+          <div>
+            <img src={BannerImg} alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );
