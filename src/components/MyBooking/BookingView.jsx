@@ -18,7 +18,7 @@ const BookingView = ({ doctor, handleFavorite }) => {
           onClick={() => handleFavorite(id, name)}
           className="btn w-full border-red-700 mt-10 text-red-700 rounded-2xl"
         >
-          canle Booking
+          Canle Booking
         </button>
       </div>
     </div>

@@ -80,7 +80,7 @@ const Navbar = () => {
             </NavLink>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end hidden md:flex">
           <a className="btn bg-[#176AE5] text-white rounded-3xl">Emergency</a>
         </div>
       </div>

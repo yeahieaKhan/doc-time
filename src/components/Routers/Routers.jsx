@@ -4,13 +4,15 @@ import Root from "../Root/Root";
 import Home from "../Home/Home";
 import DoctorDetails from "../Doctors/DoctorDetails";
 import Mybooking from "../MyBooking/Mybooking";
-import Blogs from "../pages/Blogs";
 import Contact from "../pages/Contact";
+import PageError from "../pages/PageError";
+import Blogs from "../Blogs/Blogs";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
+    errorElement: <PageError></PageError>,
     children: [
       {
         index: true,
@@ -28,6 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: "blogs",
+        loader: () => fetch("../blogs.json"),
         Component: Blogs,
       },
       {

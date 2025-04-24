@@ -10,7 +10,6 @@ const Home = () => {
   console.log(doctors);
   return (
     <div>
-      <h2>Hello form home components</h2>
       <Banner></Banner>
       <Doctors doctors={doctors}> </Doctors>
       <Services></Services>
