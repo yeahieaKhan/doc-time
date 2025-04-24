@@ -30,23 +30,26 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+              <NavLink to={"/"}>
+                <li>
+                  <a>Home</a>
+                </li>
+              </NavLink>
+              <NavLink to={"/mybooking"}>
+                <li>
+                  <a>My-Booing</a>
+                </li>
+              </NavLink>
+              <NavLink to={"blogs"}>
+                <li>
+                  <a>Blogs</a>
+                </li>
+              </NavLink>
+              <NavLink to={"contact"}>
+                <li>
+                  <a>Contact Us</a>
+                </li>
+              </NavLink>
             </ul>
           </div>
           <div>
