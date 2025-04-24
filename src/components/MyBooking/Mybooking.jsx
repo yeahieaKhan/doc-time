@@ -21,18 +21,20 @@ const Mybooking = () => {
   if (doctorData.length < 1) return <EmptyState></EmptyState>;
 
   return (
-    <div>
-      <h2>my booking components</h2>
+    <>
       <div>
-        {doctorData.map((doctor) => (
-          <BookingView
-            key={doctor.id}
-            doctor={doctor}
-            handleFavorite={handleFavorite}
-          ></BookingView>
-        ))}
+        <h2>my booking components</h2>
+        <div>
+          {doctorData.map((doctor) => (
+            <BookingView
+              key={doctor.id}
+              doctor={doctor}
+              handleFavorite={handleFavorite}
+            ></BookingView>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
