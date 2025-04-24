@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import RechartForBooking from "./RechartForBooking";
 
 import { getFavorites, removeFavorite } from "../Utilitys";
 import BookingView from "./BookingView";
@@ -22,9 +23,18 @@ const Mybooking = () => {
 
   return (
     <>
+      <div className="md:w-7xl mx-auto py-2">
+        <RechartForBooking doctorData={doctorData}></RechartForBooking>
+      </div>
       <div>
-        <h2>my booking components</h2>
-        <div>
+        <div className="text-center py-20">
+          <h2 className=" font-bold text-3xl">Today my Appoinment</h2>
+          <p>
+            Our platform connects you with verified, experienced doctors across
+            various specialties — all at your convenience.
+          </p>
+        </div>
+        <div className=" md:w-7xl px-10 md:px-0 mx-auto rounded-3xl">
           {doctorData.map((doctor) => (
             <BookingView
               key={doctor.id}

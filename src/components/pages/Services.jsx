@@ -4,10 +4,14 @@ import { MdOutlineEventNote } from "react-icons/md";
 import { CiStar } from "react-icons/ci";
 import { FaUserDoctor } from "react-icons/fa6";
 import { BiAccessibility } from "react-icons/bi";
+import counterDocterImg from "../../assets/success-doctor.png";
+import counterReviews from "../../assets/success-review.png";
+import counterstaff from "../../assets/success-staffs.png";
+import counterpatent from "../../assets/success-patients.png";
 
 const Services = () => {
   return (
-    <div className="md:w-7xl md:mx-auto md:py-30">
+    <div className="md:w-7xl mx-auto md:py-30">
       <h2 className="text-center text-black font-bold">
         We Provide Best Medical Services
       </h2>
@@ -15,10 +19,10 @@ const Services = () => {
         Our platform connects you with verified, experienced doctors across
         various specialties — all at your convenience.{" "}
       </p>
-      <div className="grid md:grid-cols-4 items-center ">
-        <div className="bg-gray-400 p-20  w-72 h-60">
+      <div className="grid  grid-cols-2 md:grid-cols-4  gap-10 mx-auto px-5 py-10  items-center ">
+        <div className="bg-gray-400 p-20 gap-2  ">
           <div>
-            <MdOutlineEventNote size={50} />
+            <img src={counterDocterImg} alt="" />
           </div>
           <div className="text-4xl font-bold">
             <CountUp end={199} duration={20} />
@@ -27,17 +31,10 @@ const Services = () => {
             <h2>Total Doctor</h2>
           </div>
         </div>
-        <div className="bg-gray-400 p-20  w-72 h-60 ">
+        <div className="bg-gray-400 p-20 ">
           <div className="block text-center justify-center items-center">
-            <div className="flex">
-              {" "}
-              <CiStar />
-              <CiStar />
-              <CiStar />
-            </div>
-            <div className="flex">
-              <CiStar />
-              <CiStar />
+            <div>
+              <img src={counterReviews} alt="" />
             </div>
           </div>
           <div className="text-3xl font-bold">
@@ -47,9 +44,9 @@ const Services = () => {
             <h2>Total Review</h2>
           </div>
         </div>
-        <div className="bg-gray-400 p-20  w-72 h-60">
+        <div className="bg-gray-400 p-20  ">
           <div>
-            <FaUserDoctor size={50} />
+            <img src={counterstaff} alt="" />
           </div>
           <div className="font-black text-3xl">
             <CountUp end={1900} duration={20} />
@@ -58,9 +55,9 @@ const Services = () => {
             <h2>Patients</h2>
           </div>
         </div>
-        <div className="bg-gray-400 p-20 w-72 h-60">
+        <div className="bg-gray-400 p-20">
           <div>
-            <BiAccessibility size={50} />
+            <img src={counterpatent} alt="" />
           </div>
           <div className="font-bold text-3xl">
             <CountUp end={300} duration={20} />

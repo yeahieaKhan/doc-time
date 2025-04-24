@@ -13,7 +13,7 @@ const Doctor = ({ doctor }) => {
   } = doctor;
   return (
     <div>
-      <div className="card bg-base-100 w-96 shadow-sm">
+      <div className="card bg-base-100  shadow-sm">
         <figure className="px-10 pt-10">
           <img src={image} alt="Shoes" className="rounded-xl" />
         </figure>

@@ -30,17 +30,26 @@ const DoctorDetails = () => {
 
   return (
     <div className="md:w-7xl mx-auto">
-      <div>
+      <div className="text-center justify-center">
         <h2 className="font-bold text-3xl text-center py-20">
           Doctor’s Profile Details
         </h2>
+        <p className="pb-10 px-10 md:px-0">
+          Doctors are highly trained professionals who play a vital role in
+          maintaining and improving our health. They diagnose illnesses, provide
+          treatments, and guide patients toward a healthier lifestyle. With
+          dedication and compassion, doctors work in hospitals, clinics, and
+          communities to care for people of all ages. Their knowledge, skills,
+          and empathy make them one of the most respected and essential members
+          of society.
+        </p>
       </div>
       <div>
-        <div className="hero bg-base-200  md:w-7xl mx-auto">
+        <div className="hero bg-base-200  md:w-7xl px-5 mx-auto">
           <div className="md:flex gap-20 w-full">
             <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
-              <h1 className="text-5xl font-bold">{name}</h1>
+              <h1 className="md:text-5xl text-2xl font-bold">{name}</h1>
               <p>{education}</p>
               <p>{designation}</p>
               <p className="text-xl mt-5">Working at:</p>
@@ -70,7 +79,7 @@ const DoctorDetails = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="px-10 md:px-0">
         <h2 className="font-bold text-3xl py-10 text-center">
           Book an Appointment
         </h2>

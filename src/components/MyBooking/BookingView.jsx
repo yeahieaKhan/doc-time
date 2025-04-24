@@ -1,18 +1,12 @@
 import React from "react";
 
-import RechartForBooking from "./RechartForBooking";
-
 const BookingView = ({ doctor, handleFavorite }) => {
   const { id, name, designation, fee } = doctor || {};
 
   return (
     <>
       <div>
-        <RechartForBooking doctor={doctor}></RechartForBooking>
-      </div>
-
-      <div>
-        <div className="border w-7xl mx-auto mt-10  p-14">
+        <div className="border mt-10  p-14">
           <div className="md:flex md:justify-between">
             <div>
               <h2 className="font-bold">{name}</h2>

@@ -9,7 +9,7 @@
     "registrationNumber": "BMDC-12345",
     "designation": "Consultant Physician",
     "workplace": "Green Life Hospital, Dhaka",
-    "fee": "1000 Taka",
+    "fee": 1000,
     "availability": ["Saturday", "Monday", "Wednesday"]
   },
   {
@@ -22,7 +22,7 @@
     "registrationNumber": "BMDC-23456",
     "designation": "Assistant Professor",
     "workplace": "Dhaka Medical College Hospital",
-    "fee": "1200 Taka",
+    "fee": 1200,
     "availability": ["Sunday", "Tuesday", "Thursday", "Friday"]
   },
   {
@@ -35,7 +35,7 @@
     "registrationNumber": "BMDC-34567",
     "designation": "Consultant Gynecologist",
     "workplace": "Popular Diagnostic Center",
-    "fee": "900 Taka",
+    "fee": 900,
     "availability": ["Monday", "Wednesday", "Thursday"]
   },
   {
@@ -48,7 +48,7 @@
     "registrationNumber": "BMDC-45678",
     "designation": "Senior Consultant",
     "workplace": "Labaid Cardiac Hospital",
-    "fee": "1500 Taka",
+    "fee": 1500,
     "availability": ["Saturday", "Sunday", "Tuesday", "Thursday", "Friday"]
   },
   {
@@ -61,7 +61,7 @@
     "registrationNumber": "BMDC-56789",
     "designation": "Child Specialist",
     "workplace": "Shishu Hospital",
-    "fee": "800 Taka",
+    "fee": 800,
     "availability": ["Sunday", "Monday", "Tuesday"]
   },
   {
@@ -74,7 +74,7 @@
     "registrationNumber": "BMDC-67890",
     "designation": "Orthopedic Consultant",
     "workplace": "BSMMU",
-    "fee": "1300 Taka",
+    "fee": 1300,
     "availability": ["Monday", "Wednesday", "Thursday", "Friday"]
   },
   {
@@ -87,7 +87,7 @@
     "registrationNumber": "BMDC-78901",
     "designation": "Skin Specialist",
     "workplace": "Evercare Hospital Dhaka",
-    "fee": "700 Taka",
+    "fee": 700,
     "availability": ["Saturday", "Sunday", "Tuesday", "Thursday", "Friday"]
   },
   {
@@ -100,7 +100,7 @@
     "registrationNumber": "BMDC-89012",
     "designation": "Chief Neurologist",
     "workplace": "National Institute of Neurosciences",
-    "fee": "1600 Taka",
+    "fee": 1600,
     "availability": ["Sunday", "Tuesday", "Wednesday", "Thursday", "Friday"]
   },
   {
@@ -113,7 +113,7 @@
     "registrationNumber": "BMDC-90123",
     "designation": "ENT Consultant",
     "workplace": "ENT Hospital, Dhaka",
-    "fee": "850 Taka",
+    "fee": 850,
     "availability": ["Saturday", "Monday", "Wednesday"]
   },
   {
@@ -126,7 +126,7 @@
     "registrationNumber": "BMDC-01234",
     "designation": "Urology Specialist",
     "workplace": "Medinova Medical Services",
-    "fee": "1100 Taka",
+    "fee": 1100,
     "availability": ["Monday", "Tuesday", "Wednesday", "Thursday"]
   },
   {
@@ -139,7 +139,7 @@
     "registrationNumber": "BMDC-11223",
     "designation": "Mental Health Consultant",
     "workplace": "Mental Health Center, Dhaka",
-    "fee": "950 Taka",
+    "fee": 950,
     "availability": ["Saturday", "Sunday", "Tuesday"]
   },
   {
@@ -152,7 +152,7 @@
     "registrationNumber": "BMDC-22334",
     "designation": "Consultant Gastroenterologist",
     "workplace": "Ibn Sina Hospital",
-    "fee": "1200 Taka",
+    "fee": 1200,
     "availability": ["Sunday", "Tuesday", "Thursday", "Friday"]
   }
 ]
