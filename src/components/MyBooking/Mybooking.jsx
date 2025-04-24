@@ -23,7 +23,7 @@ const Mybooking = () => {
 
   return (
     <>
-      <div className="md:w-7xl mx-auto py-2">
+      <div className="md:w-7xl  mx-auto py-2">
         <RechartForBooking doctorData={doctorData}></RechartForBooking>
       </div>
       <div>

@@ -1,12 +1,26 @@
-# React + Vite
+# doc-time using react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Which Technology use for the website
 
-Currently, two official plugins are available:
+1. https://vite.dev/guide/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. https://tailwindcss.com/docs/installation/using-vite
 
-## Expanding the ESLint configuration
+3. https://daisyui.com/docs/install/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. https://reactrouter.com/home
+
+5. https://www.npmjs.com/package/react-countup
+
+6. https://www.npmjs.com/package/react-toastify
+
+7. https://react-icons.github.io/react-icons/
+8. https://recharts.org/en-US/guide
+
+Which tools use for the website
+
+1.  github
+
+2.  gitbash
+
+3.  netlify
