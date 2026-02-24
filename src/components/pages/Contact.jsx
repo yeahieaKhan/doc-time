@@ -1,12 +1,12 @@
 import React from "react";
-import errorImg from "../../assets/error404.png";
+
 import { NavLink } from "react-router";
 
 const Contact = () => {
   return (
     <div className="text-center md:flex px-10 justify-center mt-30">
       <div>
-        <img src={errorImg} alt="" />
+        <h2>sohag</h2>
         <div>
           <NavLink to={"/"}>
             {" "}
